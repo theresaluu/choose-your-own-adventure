@@ -1,6 +1,5 @@
-require 'bundler/setup'
 require 'sinatra'
-require 'haml'
+require 'Haml'
 
 get '/' do
   haml :welcome
